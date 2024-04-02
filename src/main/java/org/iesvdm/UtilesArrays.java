@@ -3,7 +3,6 @@ package org.iesvdm;
 import java.util.Arrays;
 
 public class UtilesArrays {
-
     /**
      * Devuelve un array vacío
      * @return nuevo
@@ -36,7 +35,7 @@ public class UtilesArrays {
      * @param array,numeroElementos,valor
      * @return nuevo
      */
-    static int[] rellenar(int[] array, int numeroElementos, int valor)
+    static int[] rellenarValor(int[] array, int numeroElementos, int valor)
     {
         int[] nuevo = new int[numeroElementos];
 
